@@ -1,7 +1,7 @@
 ## VTEX-IO-estudo
 <b>Repositório para estudo da ferramenta VTEX IO</b>
 
-Comandos iniciais (Obs.: substituir "{accountName}" e {workspaceName} pelos nomes verdadeiros):
+Comandos iniciais (Obs.: substituir "{accountName}" e "{workspaceName}" pelos nomes verdadeiros):
 
 ```console
 $ vtex login {accountName}
