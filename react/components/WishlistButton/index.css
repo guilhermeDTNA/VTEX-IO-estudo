@@ -1,0 +1,27 @@
+.wishlistButtonContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.wishlistButtonContainer:hover{
+    background-color: #ccc;
+}
+
+/*Global é para todos os botões dentro da classe wishlistButtonContainer*/
+.wishlistButtonContainer :global(.vtex-button){
+    background-color: transparent;
+}
+
+.wishlistButtonContainer :global(.vtex-button__label){
+    padding: 0;
+}
+
+.wishlistButtonText{
+    font-size: 14px;
+    margin-left: 10px;
+}

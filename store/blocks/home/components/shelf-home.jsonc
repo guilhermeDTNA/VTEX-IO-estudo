@@ -1,0 +1,60 @@
+{
+    "rich-text#shelf-title": {
+        "props": {
+          "text": "## Summer",
+          "blockClass": "shelfTitle"
+        }
+      },
+      "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#demo1"]
+      },
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+    },
+
+    
+    "product-summary.shelf#demo2": {
+        "children": [
+          "stack-layout#prodsum",
+          "product-summary-name",
+          "product-rating-inline",
+          "product-summary-space",
+          "product-summary-price",
+          "product-summary-buy-button"
+        ]
+    },
+
+    "list-context.product-list#demo2": {
+        "blocks": ["product-summary.shelf#demo2"],
+        "children": ["slider-layout#demo-products"]
+    },
+
+    "slider-layout#demo-products2": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly"
+        },
+        "children": ["rich-text#01", "rich-text#02", "rich-text#03"]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "responsive-layout.desktop#home":{
+        "children": ["list-context.image-list#banner"]
+    },
+
+    "list-context.image-list#banner":{
+        "children": ["slider-layout#banner"],
+        "props": {
+            "height": 764,
+            "images": [
+                {
+                    //desktop
+                    "image": "assets/imgs/banners/banner-full.png",
+                    "mobileImage": ""
+                },
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+                },
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+                }
+            ]
+        }
+    },
+
+    "slider-layout#banner":{
+        "props":{
+            "itemsPerPage":{
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "always"
+        }
+    }
+}

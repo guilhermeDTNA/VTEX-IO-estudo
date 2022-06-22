@@ -1,0 +1,28 @@
+.container--text__top-bar{
+    font-size: 16px;
+    color: #FFF;
+}
+
+.wrapper--text__top-bar{
+    margin-right: 30px;
+    line-height: unset;
+}
+
+.paragraph--text__top-bar{
+    margin-right: 25px;
+    line-height: unset;
+}
+
+.paragraph--text__top-bar, .flexRowContent--wrapper__top-bar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.image--email__top-bar, .image--phone__top-bar{
+    margin-right: 7px;
+}
+
+.image--login__top-bar, .image--withlist__top-bar{
+    margin-left: 7px;
+}

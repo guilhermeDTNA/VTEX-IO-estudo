@@ -1,0 +1,95 @@
+{
+    "store.custom#be-sustainable": {
+        "blocks": [
+            "flex-layout.row#sustainability-wrapper"
+        ]
+    },
+    "flex-layout.row#sustainability-wrapper": {
+        "title": "Content",
+        "children": [
+            "flex-layout.col#sustainability"
+        ]
+    },
+    "flex-layout.col#sustainability": {
+        "props": {
+            "blockClass": "sustainability-wrapper"
+        },
+        "children": [
+            "image#sustainable-banner",
+            "flex-layout.col#cards-sustainability--wrapper"
+        ]
+    },
+    "image#sustainable-banner": {
+        "title": "Banner",
+        "props": {
+            "src": "assets/imgs/banners/sustainability-banner.jpeg"
+        }
+    },
+    "flex-layout.col#cards-sustainability--wrapper": {
+        "props": {
+            "blockClass": "cards-sustainability-wrapper"
+        },
+        "children": [
+            "info-card#first-left",
+            "info-card#first-right",
+            "info-card#second-left",
+            "info-card#second-right"
+        ]
+    },
+    "info-card#first-left": {
+        "title": "Info Card 1",
+        "props": {
+            "id": "sustainability-1",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/banners/sustainable-1.jpeg",
+            "headline": "What is sustainability?",
+            "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
+            "blockClass": "sustainability",
+            "textAlignment": "right",
+            "callToActionMode": "none"
+        }
+    },
+    "info-card#first-right": {
+        "title": "Info Card 2",
+        "props": {
+            "id": "sustainability-2",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "assets/imgs/banners/sustainable-2.jpeg",
+            "headline": "What is sustainability?",
+            "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
+            "blockClass": "sustainability",
+            "textAlignment": "left",
+            "callToActionMode": "none"
+        }
+    },
+    "info-card#second-left": {
+        "title": "Info Card 3",
+        "props": {
+            "id": "sustainability-3",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/imgs/banners/sustainable-3.jpeg",
+            "headline": "What is sustainability?",
+            "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
+            "blockClass": "sustainability",
+            "textAlignment": "right",
+            "callToActionMode": "none"
+        }
+    },
+    "info-card#second-right": {
+        "title": "Info Card 4",
+        "props": {
+            "id": "sustainability-1",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "assets/imgs/banners/sustainable-1.jpeg",
+            "headline": "What is sustainability?",
+            "subhead": "Sustainability focuses on meeting the needs of the present without compromising the ability of future generations to meet their needs. The concept of sustainability is composed of three pillars: economic, environmental, and social—also known informally as profits, planet, and people.",
+            "blockClass": "sustainability",
+            "textAlignment": "left",
+            "callToActionMode": "none"
+        }
+    }
+}

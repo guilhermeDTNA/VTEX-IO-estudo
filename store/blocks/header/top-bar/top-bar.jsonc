@@ -1,0 +1,70 @@
+//Arquivos jsonc permitem comentários
+{
+    "flex-layout.row#top-bar": {
+        "children": [
+            "flex-layout.col#left",
+            "flex-layout.col#right"
+        ],
+        "props": {
+            "blockClass": "wrapper__top-bar",
+            "preventHorizontalStretch": true,
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#left": { 
+        "children": [
+            "rich-text#email-text",
+            "rich-text#phone-text"
+        ],
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-left"]
+        }
+    },
+
+    "flex-layout.col#right": { 
+        "children": [
+            "rich-text#login-text",
+            "rich-text#wishlist-text",
+            "rich-text#cart-text"
+        ],
+        "props": {
+            "blockClass": ["wrapper__col", "wrapper__col-right"]
+        }
+    },
+
+    "rich-text#email-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "email__top-bar"],
+            "text": "![email](assets/imgs/top-bar/email.svg) loremipson@gmail.com"
+        }
+    },
+
+    "rich-text#phone-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "phone__top-bar"],
+            "text": "![phone](assets/imgs/top-bar/telefone.svg) +55 14 0000-0000"
+        }
+    },
+
+    "rich-text#login-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "login__top-bar"],
+            "text": "Login ![login](assets/imgs/top-bar/conta.svg)"
+        }
+    },
+
+    "rich-text#wishlist-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "withlist__top-bar"],
+            "text": "Wishlist ![login](assets/imgs/top-bar/coracao.svg)"
+        }
+    },
+
+    "rich-text#cart-text": {
+        "props": {
+            "blockClass": ["text__top-bar", "cart__top-bar"],
+            "text": "![minicart](assets/imgs/top-bar/carrinho.svg)"
+        }
+    }
+}

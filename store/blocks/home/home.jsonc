@@ -1,0 +1,16 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.product-list#demo2",
+      "slider-layout-group#conexao",
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home",
+      "responsive-layout.tablet#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
+  }
+}
